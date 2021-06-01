@@ -1,0 +1,24 @@
+version: "3.5"
+
+services:
+  composer:
+    image: composer
+    environment:
+      - COMPOSER_CACHE_DIR=/app/.cache/composer
+    volumes:
+      - .:/app
+    restart: never
+  php:
+    image: php:7.4-cli
+    restart: never
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint: php
+  phpunit:
+    image: php:7.4-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint: vendor/bin/phpunit
+    restart: never
