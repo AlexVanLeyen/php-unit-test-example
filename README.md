@@ -72,6 +72,7 @@ chmod 755 replace-with-path-to-script.php
 
 See https://phpunit.readthedocs.io/en/9.5/textui.html#command-line-options or run `docker-compose run phpunit --help` to see all of the available options for phpunit. 
 
+The configuration for PHPUnit is defined in `phpunit.xml`. Docs for configuration: https://phpunit.readthedocs.io/en/9.5/configuration.html
 
 ## Shortcuts
 If the alias command is available to you, you can create a shortcut for your docker-compose commands:
