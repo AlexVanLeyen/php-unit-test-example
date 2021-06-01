@@ -1,14 +1,14 @@
 # PHP Unit Testing Example
 
-This little project is meant to demonstrate how to build a run unit tests with PHP.
+This project demonstrates how to build and run unit tests with PHP.
 
 ## Dependencies:
 
-PHP-cli: 7.4
-PHPUnit: 9.5.4
-Docker: 19.03.11
-Docker-Compose: 1.26.0
-Composer: 2.0.14
+- PHP-cli: 7.4
+- PHPUnit: 9.5.4
+- Docker: 19.03.11
+- Docker-Compose: 1.26.0
+- Composer: 2.0.14
 
 ## Services Available With Docker-Compose
 
